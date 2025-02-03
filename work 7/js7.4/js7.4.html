@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Scores</title>
+<style>
+  /* Basic styling - you can enhance this */
+  #results, #scores_table {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  #scores_table {
+      width: 300px;
+      border-collapse: collapse;
+  }
+  #scores_table th, #scores_table td {
+      border: 1px solid #ccc;
+      padding: 5px;
+      text-align: left;
+  }
+</style>
+</head>
+<body>
+
+<h1>Use a Test Score array</h1>
+
+<label for="name">Name:</label>
+<input type="text" id="name"><br><br>
+
+<label for="score">Score:</label>
+<input type="text" id="score"><br><br>
+
+<button id="add_button">Add to Array</button>
+<button id="display_results">Display Results</button>
+<button id="display_scores">Display Scores</button>
+
+<div id="results"></div>
+
+<table id="scores_table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody></tbody> 
+</table>
+
+<script src="main.js"></script>
+</body>
+</html>
